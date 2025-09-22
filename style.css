@@ -1,3 +1,78 @@
 body {
     background: blue;
 }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background: #ff9800;
+  color: white;
+  border-radius: 5px;
+}
+
+header button:hover {
+  background: #e68900;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Projects */
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #222;
+  color: #f4f4f9;
+}
+
+.dark-mode header {
+  background: #111;
+}
+
+.dark-mode footer {
+  background: #111;
+}
