@@ -38,3 +38,51 @@
     text-transform: uppercase;
 }
 
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: white;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+
+}
+/* styling the buttons */
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border-color: 2px solid darkblue;
+    background: transparent;
+    color: black;
+    cursor:pointer;
+}
+
+/* Adding hover effect */
+.navbar ul li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: lightskyblue;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover ::after {
+    width: 100%;
+}
